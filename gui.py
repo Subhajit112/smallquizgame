@@ -80,7 +80,6 @@ class graphics:
 
     
     def count_down(self,time):
-        print(time)
         if self.flag:
             if time >= 0:  
                 self.time_label.config(text= f"00:{"%02d" % time}")
